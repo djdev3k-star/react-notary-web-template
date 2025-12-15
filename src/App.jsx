@@ -4,6 +4,7 @@ import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
 import Hero from './components/home/Hero';
 import Services from './components/home/Services';
+import Pricing from './components/home/Pricing';
 import Contact from './components/home/Contact';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <main>
           <Hero />
           <Services />
+          <Pricing />
           <Contact />
         </main>
         <Footer />
